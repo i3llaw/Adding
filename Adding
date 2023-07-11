@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class AliCalculator { 
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        int x = input.nextInt();
+        System.out.print("Enter the second number: ");
+        int y = input.nextInt();
+        System.out.println("The sum is: " + (x + y));
+    } 
+}
